@@ -1,22 +1,22 @@
 {
- "generated": "2026-10-16 10:16 CT",
- "generated_iso": "2026-10-16T10:16:15.855877-05:00",
- "prices_as_of": "10:16 CT",
+ "generated": "2026-10-16 10:21 CT",
+ "generated_iso": "2026-10-16T10:21:12.433691-05:00",
+ "prices_as_of": "10:21 CT",
  "price_source": "Yahoo snapshot",
  "session_date": "2026-10-15",
  "last_session": "2026-10-15",
  "start": 10000.0,
- "equity": 9967.675542500001,
+ "equity": 9968.395224,
  "cash": 4000.0902910000004,
- "positions_value": 5967.5852515,
- "day_change": -32.32445749999897,
- "day_change_pct": -0.3232445749999924,
+ "positions_value": 5968.304933,
+ "day_change": -31.60477600000013,
+ "day_change_pct": -0.31604776000000445,
  "spy": {
   "tv": "AMEX:SPY",
-  "price": 769.65,
+  "price": 769.385,
   "prev_close": 771.79,
-  "bench_equity": 9972.272250223506,
-  "ret_pct": -0.2772774977649384
+  "bench_equity": 9968.838673732493,
+  "ret_pct": -0.31161326267507006
  },
  "realized_pnl": 0.0,
  "macro": {
@@ -31,7 +31,7 @@
    "tv": "NYSE:CRM",
    "shares": 4.0528,
    "avg_cost": 246.74,
-   "price": 238.1,
+   "price": 238.415,
    "prev_close": 246.74,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -93,8 +93,9 @@
     238.46,
     237.63,
     238.72,
-    238.43,
-    238.1
+    238.42,
+    238.38,
+    238.41
    ],
    "spark_kind": "intraday",
    "trades": [
@@ -115,7 +116,7 @@
    "tv": "NYSE:MDT",
    "shares": 10.4766,
    "avg_cost": 95.45,
-   "price": 95.285,
+   "price": 95.3,
    "prev_close": 95.45,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -177,8 +178,8 @@
     95.38,
     95.54,
     95.35,
-    95.29,
-    95.29
+    95.26,
+    95.3
    ],
    "spark_kind": "intraday",
    "trades": [
@@ -199,7 +200,7 @@
    "tv": "NYSE:TMO",
    "shares": 1.4357,
    "avg_cost": 696.49,
-   "price": 687.155,
+   "price": 687.49,
    "prev_close": 696.49,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -258,11 +259,12 @@
     688.83,
     690.82,
     690.26,
-    690.23,
+    690.44,
     689.59,
     688.23,
-    687.61,
-    687.16
+    688.01,
+    687.68,
+    687.49
    ],
    "spark_kind": "intraday",
    "trades": [
@@ -283,7 +285,7 @@
    "tv": "NYSE:IBM",
    "shares": 4.2713,
    "avg_cost": 234.12,
-   "price": 231.35,
+   "price": 231.32,
    "prev_close": 234.12,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -343,8 +345,9 @@
     232.38,
     231.31,
     231.73,
-    231.65,
-    231.35
+    231.31,
+    231.51,
+    231.32
    ],
    "spark_kind": "intraday",
    "trades": [
@@ -365,7 +368,7 @@
    "tv": "NYSE:MRK",
    "shares": 6.8875,
    "avg_cost": 145.19,
-   "price": 146.895,
+   "price": 146.97,
    "prev_close": 145.19,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -427,8 +430,9 @@
     146.77,
     146.92,
     147.09,
-    146.9,
-    146.9
+    146.93,
+    147.02,
+    146.97
    ],
    "spark_kind": "intraday",
    "trades": [
@@ -449,7 +453,7 @@
    "tv": "NYSE:BNY",
    "shares": 7.0377,
    "avg_cost": 142.09,
-   "price": 144.635,
+   "price": 144.41,
    "prev_close": 142.09,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -511,8 +515,9 @@
     144.54,
     144.46,
     144.7,
-    144.66,
-    144.63
+    144.64,
+    144.54,
+    144.41
    ],
    "spark_kind": "intraday",
    "trades": [
