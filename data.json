@@ -1,22 +1,22 @@
 {
- "generated": "2026-10-21 14:40 CT",
- "generated_iso": "2026-10-21T14:40:20.887976-05:00",
- "prices_as_of": "14:40 CT",
- "price_source": "prices file",
- "session_date": "2026-10-20",
- "last_session": "2026-10-20",
+ "generated": "2026-10-21 16:39 CT",
+ "generated_iso": "2026-10-21T16:39:36.442924-05:00",
+ "prices_as_of": "2026-10-21 close",
+ "price_source": "session close 2026-10-21",
+ "session_date": "2026-10-21",
+ "last_session": "2026-10-21",
  "start": 10000.0,
- "equity": 10164.453171,
+ "equity": 10161.221987,
  "cash": 19.448628000000667,
- "positions_value": 10145.004543,
- "day_change": 151.28016299999945,
- "day_change_pct": 1.5108114368855396,
+ "positions_value": 10141.773359,
+ "day_change": 148.04897900000105,
+ "day_change_pct": 1.4785421053018721,
  "spy": {
   "tv": "AMEX:SPY",
-  "price": 772.8501,
+  "price": 773.1,
   "prev_close": 769.05,
-  "bench_equity": 10013.7356016533,
-  "ret_pct": 0.13735601653299678
+  "bench_equity": 10016.97352906879,
+  "ret_pct": 0.16973529068788906
  },
  "realized_pnl": 0.0,
  "macro": {
@@ -31,7 +31,7 @@
    "tv": "NYSE:CRM",
    "shares": 4.0528,
    "avg_cost": 246.74,
-   "price": 241.995,
+   "price": 241.72,
    "prev_close": 242.43,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -43,7 +43,7 @@
     },
     "momentum": {
      "score": 2,
-     "detail": "RSI 57\u226555, MACD hist>0, TRIX mixed"
+     "detail": "RSI 56\u226555, MACD hist>0, TRIX mixed"
     },
     "macro_sentiment": {
      "score": 0,
@@ -54,20 +54,21 @@
    "rationale": "Bullish cycle intact (Trend and Momentum positive).",
    "framing": "Hold and watch for exhaustion: the next expected action is EXIT with profit, not adding to position. Accumulating is not the default (capital rotation > large position).",
    "flags": {
-    "exhaustion": [],
+    "exhaustion": [
+     "MACD histogram shrinking in positive territory"
+    ],
     "bearish": [],
     "rebound": [],
     "death_cross": false,
-    "stretch_pct": 2.6
+    "stretch_pct": 2.0
    },
-   "plan": "Holding while the trend holds (score +4: trend +2, momentum +2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 0).",
+   "plan": "Holding while the trend holds (score +4: trend +2, momentum +2). It exits only on score rules. Closest trigger: one more exhaustion flag would force an exit. Would exit if 2+ exhaustion flags appear (now 1) or 3+ bearish flags appear (now 0).",
    "triggers": [
-    "Exhaustion flags reach 2 (now 0/2) \u2192 EXIT / TRIM (sell the whole position)",
+    "Exhaustion flags reach 2 (now 1/2) \u2192 EXIT / TRIM (sell the whole position)",
     "Bearish flags reach 3 (now 0/3) \u2192 EXIT",
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    244.16,
     243.0,
     247.72,
     259.43,
@@ -96,7 +97,8 @@
     246.74,
     240.7,
     242.45,
-    242.45
+    242.43,
+    241.72
    ],
    "spark_kind": "30d",
    "trades": [
@@ -129,7 +131,7 @@
    "tv": "NYSE:MDT",
    "shares": 10.4766,
    "avg_cost": 95.45,
-   "price": 92.895,
+   "price": 93.03,
    "prev_close": 94.63,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -141,7 +143,7 @@
     },
     "momentum": {
      "score": 2,
-     "detail": "RSI 61\u226555, MACD hist>0, TRIX>signal>0"
+     "detail": "RSI 56\u226555, MACD hist>0, TRIX>signal>0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -158,7 +160,7 @@
     "bearish": [],
     "rebound": [],
     "death_cross": false,
-    "stretch_pct": 3.7
+    "stretch_pct": 1.7
    },
    "plan": "Holding while the trend holds (score +4: trend +2, momentum +2). It exits only on score rules. Closest trigger: one more exhaustion flag would force an exit. Would exit if 2+ exhaustion flags appear (now 1) or 3+ bearish flags appear (now 0).",
    "triggers": [
@@ -167,7 +169,6 @@
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    91.89,
     91.62,
     90.96,
     93.8,
@@ -196,7 +197,8 @@
     95.45,
     94.75,
     92.77,
-    94.67
+    94.63,
+    93.03
    ],
    "spark_kind": "30d",
    "trades": [
@@ -228,7 +230,7 @@
    "tv": "NYSE:TMO",
    "shares": 1.4357,
    "avg_cost": 696.49,
-   "price": 695.38,
+   "price": 694.53,
    "prev_close": 687.37,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -240,7 +242,7 @@
     },
     "momentum": {
      "score": 2,
-     "detail": "RSI 61\u226555, MACD hist>0, TRIX mixed"
+     "detail": "RSI 63\u226555, MACD hist>0, TRIX mixed"
     },
     "macro_sentiment": {
      "score": 0,
@@ -255,7 +257,7 @@
     "bearish": [],
     "rebound": [],
     "death_cross": false,
-    "stretch_pct": 3.0
+    "stretch_pct": 3.6
    },
    "plan": "Holding while the trend holds (score +4: trend +2, momentum +2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 0).",
    "triggers": [
@@ -264,7 +266,6 @@
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    605.69,
     603.18,
     609.82,
     613.62,
@@ -293,7 +294,8 @@
     696.49,
     690.0,
     679.38,
-    687.83
+    687.37,
+    694.53
    ],
    "spark_kind": "30d",
    "trades": [
@@ -325,7 +327,7 @@
    "tv": "NYSE:IBM",
    "shares": 4.2713,
    "avg_cost": 234.12,
-   "price": 249.005,
+   "price": 251.49,
    "prev_close": 241.92,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -337,7 +339,7 @@
     },
     "momentum": {
      "score": 2,
-     "detail": "RSI 63\u226555, MACD hist>0, TRIX mixed"
+     "detail": "RSI 70\u226555, MACD hist>0, TRIX mixed"
     },
     "macro_sentiment": {
      "score": 0,
@@ -354,7 +356,7 @@
     "bearish": [],
     "rebound": [],
     "death_cross": false,
-    "stretch_pct": 5.0
+    "stretch_pct": 8.2
    },
    "plan": "Holding a rebound entry against a weak trend, on a short leash (score +1: trend -1, momentum +2). It exits only on score rules. Closest trigger: one more exhaustion flag would force an exit. Would exit if 2+ exhaustion flags appear (now 1) or 3+ bearish flags appear (now 0).",
    "triggers": [
@@ -363,7 +365,6 @@
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    239.94,
     234.02,
     243.29,
     249.09,
@@ -392,7 +393,8 @@
     234.12,
     232.14,
     236.39,
-    242.02
+    241.92,
+    251.49
    ],
    "spark_kind": "30d",
    "trades": [
@@ -424,7 +426,7 @@
    "tv": "NYSE:MRK",
    "shares": 6.8875,
    "avg_cost": 145.19,
-   "price": 149.265,
+   "price": 149.89,
    "prev_close": 148.3,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -436,7 +438,7 @@
     },
     "momentum": {
      "score": 1,
-     "detail": "RSI 56\u226555, MACD hist>0, TRIX<signal<0"
+     "detail": "RSI 58\u226555, MACD hist>0, TRIX<signal<0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -445,18 +447,17 @@
    },
    "action": "HOLD (ride the cycle)",
    "rationale": "Bullish cycle intact (Trend and Momentum positive).",
-   "framing": "Hold and watch for exhaustion: the next expected action is EXIT with profit, not adding to position. Accumulating is not the default (capital rotation > large position). (Rebound signals in progress reinforce holding.)",
+   "framing": "Hold and watch for exhaustion: the next expected action is EXIT with profit, not adding to position. Accumulating is not the default (capital rotation > large position).",
    "flags": {
     "exhaustion": [],
     "bearish": [
      "TRIX<signal below zero"
     ],
     "rebound": [
-     "MACD histogram crossing bullishly",
-     "price reclaims EMA20 (closed below 1 bar ago)"
+     "price reclaims EMA20 (closed below 2 bars ago)"
     ],
     "death_cross": false,
-    "stretch_pct": 2.1
+    "stretch_pct": 2.8
    },
    "plan": "Holding while the trend holds (score +3: trend +2, momentum +1). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
    "triggers": [
@@ -465,7 +466,6 @@
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    147.53,
     144.71,
     143.93,
     144.85,
@@ -494,7 +494,8 @@
     145.19,
     145.95,
     143.63,
-    148.31
+    148.3,
+    149.89
    ],
    "spark_kind": "30d",
    "trades": [
@@ -527,19 +528,19 @@
    "tv": "NYSE:BNY",
    "shares": 7.0377,
    "avg_cost": 142.09,
-   "price": 146.1,
+   "price": 145.85,
    "prev_close": 144.25,
    "opened": "2026-10-15",
    "entry_action": "RE-ENTRY (new cycle)",
-   "score": -1,
+   "score": 1,
    "pillars": {
     "trend": {
-     "score": 0,
-     "detail": "price<EMA20, EMA20<EMA50, EMA50>EMA200, EMA200\u2191"
+     "score": 1,
+     "detail": "price>EMA20, EMA20<EMA50, EMA50>EMA200, EMA200\u2191"
     },
     "momentum": {
-     "score": -1,
-     "detail": "RSI 43\u226445, MACD hist>0, TRIX<signal<0"
+     "score": 0,
+     "detail": "RSI 48 neutral, MACD hist>0, TRIX<signal<0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -556,16 +557,15 @@
     ],
     "rebound": [],
     "death_cross": false,
-    "stretch_pct": -0.7
+    "stretch_pct": 0.4
    },
-   "plan": "Holding the fresh rebound entry while the trend repairs (score -1: trend +0, momentum -1). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
+   "plan": "Holding while the trend holds (score +1: trend +1, momentum +0). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
    "triggers": [
     "Exhaustion flags reach 2 (now 0/2) \u2192 EXIT / TRIM (sell the whole position)",
     "Bearish flags reach 3 (now 1/3) \u2192 EXIT",
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    162.51,
     162.59,
     162.66,
     157.66,
@@ -594,7 +594,8 @@
     142.09,
     143.3,
     142.44,
-    144.25
+    144.25,
+    145.85
    ],
    "spark_kind": "30d",
    "trades": [
@@ -627,19 +628,19 @@
    "tv": "NASDAQ:MU",
    "shares": 1.0969,
    "avg_cost": 905.35,
-   "price": 918.405,
+   "price": 913.62,
    "prev_close": 896.07,
    "opened": "2026-10-19",
    "entry_action": "RE-ENTRY (new cycle)",
-   "score": -1,
+   "score": -2,
    "pillars": {
     "trend": {
-     "score": 1,
-     "detail": "price<EMA20, EMA20>EMA50, EMA50>EMA200, EMA200\u2191"
+     "score": 0,
+     "detail": "price<EMA20, EMA20<EMA50, EMA50>EMA200, EMA200\u2191"
     },
     "momentum": {
      "score": -2,
-     "detail": "RSI 37\u226445, MACD hist<0, TRIX<signal<0"
+     "detail": "RSI 40\u226445, MACD hist<0, TRIX<signal<0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -652,23 +653,21 @@
    "flags": {
     "exhaustion": [],
     "bearish": [
-     "TRIX<signal below zero",
-     "RSI weak and falling (37)"
+     "TRIX<signal below zero"
     ],
     "rebound": [
      "MACD histogram crossing bullishly"
     ],
     "death_cross": false,
-    "stretch_pct": -8.4
+    "stretch_pct": -6.0
    },
-   "plan": "Holding while the trend holds (score -1: trend +1, momentum -2). It exits only on score rules. Closest trigger: one more bearish flag would force an exit. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 2).",
+   "plan": "Holding the fresh rebound entry while the trend repairs (score -2: trend +0, momentum -2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
    "triggers": [
     "Exhaustion flags reach 2 (now 0/2) \u2192 EXIT / TRIM (sell the whole position)",
-    "Bearish flags reach 3 (now 2/3) \u2192 EXIT",
+    "Bearish flags reach 3 (now 1/3) \u2192 EXIT",
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    1027.77,
     977.41,
     975.26,
     924.03,
@@ -697,7 +696,8 @@
     931.24,
     878.84,
     904.9,
-    895.95
+    896.07,
+    913.62
    ],
    "spark_kind": "30d",
    "trades": [
@@ -729,7 +729,7 @@
    "tv": "NASDAQ:INTC",
    "shares": 10.7979,
    "avg_cost": 91.97,
-   "price": 92.74,
+   "price": 92.9,
    "prev_close": 91.69,
    "opened": "2026-10-19",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -741,7 +741,7 @@
     },
     "momentum": {
      "score": -2,
-     "detail": "RSI 34\u226445, MACD hist<0, TRIX<signal<0"
+     "detail": "RSI 36\u226445, MACD hist<0, TRIX<signal<0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -750,27 +750,26 @@
    },
    "action": "HOLD / OBSERVE",
    "rationale": "Mixed signals; no clear exhaustion or rebound trigger.",
-   "framing": "No action. Watch the next close.",
+   "framing": "No action. Watch the next close. (Rebound signals in progress reinforce holding.)",
    "flags": {
     "exhaustion": [],
     "bearish": [
-     "TRIX<signal below zero",
-     "RSI weak and falling (34)"
+     "TRIX<signal below zero"
     ],
     "rebound": [
+     "RSI turning from oversold (34\u219236)",
      "MACD histogram crossing bullishly"
     ],
     "death_cross": false,
-    "stretch_pct": -11.3
+    "stretch_pct": -9.2
    },
-   "plan": "Holding the fresh rebound entry while the trend repairs (score -2: trend +0, momentum -2). It exits only on score rules. Closest trigger: one more bearish flag would force an exit. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 2).",
+   "plan": "Holding the fresh rebound entry while the trend repairs (score -2: trend +0, momentum -2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
    "triggers": [
     "Exhaustion flags reach 2 (now 0/2) \u2192 EXIT / TRIM (sell the whole position)",
-    "Bearish flags reach 3 (now 2/3) \u2192 EXIT",
+    "Bearish flags reach 3 (now 1/3) \u2192 EXIT",
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    106.24,
     100.32,
     102.94,
     97.19,
@@ -799,7 +798,8 @@
     95.37,
     89.85,
     92.03,
-    91.66
+    91.69,
+    92.9
    ],
    "spark_kind": "30d",
    "trades": [
@@ -832,7 +832,7 @@
    "tv": "NASDAQ:SNDK",
    "shares": 0.7242,
    "avg_cost": 1371.2,
-   "price": 1388.045,
+   "price": 1378.3,
    "prev_close": 1365.38,
    "opened": "2026-10-19",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -844,7 +844,7 @@
     },
     "momentum": {
      "score": -2,
-     "detail": "RSI 36\u226445, MACD hist<0, TRIX<signal<0"
+     "detail": "RSI 37\u226445, MACD hist<0, TRIX<signal<0"
     },
     "macro_sentiment": {
      "score": 0,
@@ -857,23 +857,21 @@
    "flags": {
     "exhaustion": [],
     "bearish": [
-     "TRIX<signal below zero",
-     "RSI weak and falling (36)"
+     "TRIX<signal below zero"
     ],
     "rebound": [
      "MACD histogram crossing bullishly"
     ],
     "death_cross": false,
-    "stretch_pct": -11.0
+    "stretch_pct": -9.3
    },
-   "plan": "Holding the fresh rebound entry while the trend repairs (score -2: trend +0, momentum -2). It exits only on score rules. Closest trigger: one more bearish flag would force an exit. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 2).",
+   "plan": "Holding the fresh rebound entry while the trend repairs (score -2: trend +0, momentum -2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 1).",
    "triggers": [
     "Exhaustion flags reach 2 (now 0/2) \u2192 EXIT / TRIM (sell the whole position)",
-    "Bearish flags reach 3 (now 2/3) \u2192 EXIT",
+    "Bearish flags reach 3 (now 1/3) \u2192 EXIT",
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    1764.17,
     1692.59,
     1633.35,
     1551.99,
@@ -902,7 +900,8 @@
     1394.83,
     1299.3,
     1371.12,
-    1365.38
+    1365.38,
+    1378.3
    ],
    "spark_kind": "30d",
    "trades": [
@@ -934,7 +933,7 @@
    "tv": "NYSE:DELL",
    "shares": 2.1693,
    "avg_cost": 461.65,
-   "price": 488.085,
+   "price": 485.83,
    "prev_close": 461.56,
    "opened": "2026-10-20",
    "entry_action": "RE-ENTRY (new cycle)",
@@ -946,25 +945,24 @@
     },
     "momentum": {
      "score": -2,
-     "detail": "RSI 36\u226445, MACD hist<0, TRIX mixed"
+     "detail": "RSI 42\u226445, MACD hist<0, TRIX mixed"
     },
     "macro_sentiment": {
      "score": 0,
      "detail": "injected from macro_pillar.py"
     }
    },
-   "action": "RE-ENTRY (new cycle)",
-   "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle.",
-   "framing": "Valid entry trigger. Confirm with candle/volume before entering full size; stop below the rebound pivot.",
+   "action": "HOLD / OBSERVE",
+   "rationale": "Mixed signals; no clear exhaustion or rebound trigger.",
+   "framing": "No action. Watch the next close.",
    "flags": {
     "exhaustion": [],
     "bearish": [],
     "rebound": [
-     "RSI turning from oversold (34\u219236)",
      "MACD histogram crossing bullishly"
     ],
     "death_cross": false,
-    "stretch_pct": -11.5
+    "stretch_pct": -6.2
    },
    "plan": "Holding while the trend holds (score -1: trend +1, momentum -2). It exits only on score rules. No exit trigger is close right now. Would exit if 2+ exhaustion flags appear (now 0) or 3+ bearish flags appear (now 0).",
    "triggers": [
@@ -973,7 +971,6 @@
     "If a death cross forms (EMA50 < EMA200 and price < EMA50), the bearish threshold drops to 2"
    ],
    "spark": [
-    535.25,
     506.62,
     567.29,
     534.28,
@@ -1002,7 +999,8 @@
     473.39,
     451.71,
     455.44,
-    461.65
+    461.56,
+    485.83
    ],
    "spark_kind": "30d",
    "trades": [
@@ -1075,34 +1073,45 @@
    "n_positions": "10",
    "macro_pillar": "0",
    "regime": "Concentration"
+  },
+  {
+   "date": "2026-10-21",
+   "cash": "19.45",
+   "positions_value": "10141.77",
+   "equity": "10161.22",
+   "spy_close": "773.1",
+   "spy_hold_equity": "10016.97",
+   "n_positions": "10",
+   "macro_pillar": "0",
+   "regime": "Concentration"
   }
  ],
  "notion": "https://app.notion.com/p/3fba1bad948f81bfb0c1e94561ddd1d0",
  "news_report": {
-  "n_checked": 14,
-  "n_flagged": 4,
+  "n_checked": 22,
+  "n_flagged": 5,
   "groups": {
    "CLEAR": {
-    "n": 10,
-    "avg_fwd5": -0.052,
-    "avg_fwd10": -0.052,
-    "avg_fwd20": -0.052,
-    "avg_latest": -0.052
+    "n": 17,
+    "avg_fwd5": 1.362,
+    "avg_fwd10": 1.362,
+    "avg_fwd20": 1.362,
+    "avg_latest": 1.362
    },
    "FLAG": {
-    "n": 4,
-    "avg_fwd5": 0.906,
-    "avg_fwd10": 0.906,
-    "avg_fwd20": 0.906,
-    "avg_latest": 0.906
+    "n": 5,
+    "avg_fwd5": 2.441,
+    "avg_fwd10": 2.441,
+    "avg_fwd20": 2.441,
+    "avg_latest": 2.441
    }
   },
   "hypothetical": {
-   "pnl_actual_buys": 14.61,
-   "pnl_if_flag_skipped": -3.54,
-   "skip_flag_effect": -18.14,
+   "pnl_actual_buys": 161.22,
+   "pnl_if_flag_skipped": 66.35,
+   "skip_flag_effect": -94.87,
    "note": "mark-to-latest close; skipped buys held as cash (0%)"
   },
-  "generated": "2026-10-21T14:40:20-05:00"
+  "generated": "2026-10-21T16:39:36-05:00"
  }
 }
